@@ -67,6 +67,14 @@ For WordPress-specific methods (like managing posts), you need to provide:
 
 The server supports both WordPress and WooCommerce API methods. Here's a list of available methods grouped by category:
 
+### Utility
+
+| Method | Description |
+|--------|-------------|
+| `list_available_methods` | Returns an array of all available method names |
+
+This method responds with a simple array of strings containing every supported RPC method.
+
 ### WordPress Content Management
 
 These methods require WordPress username/password credentials and are independent of the WooCommerce API.
